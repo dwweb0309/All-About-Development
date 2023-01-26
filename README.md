@@ -6,6 +6,7 @@
 - [How to run index.html in localhost](https://stackoverflow.com/questions/38497334/how-to-run-html-file-on-localhost)
 - [How to implement caching in Node.js using Redis](https://www.digitalocean.com/community/tutorials/how-to-implement-caching-in-node-js-using-redis)
 - [Reset local repository branch to be just like remote repository HEAD](https://stackoverflow.com/questions/1628088/reset-local-repository-branch-to-be-just-like-remote-repository-head)
+- [Postgres password authentication fails](https://askubuntu.com/questions/413585/postgres-password-authentication-fails)
 
 ## Documentations
 - [Martin](https://github.com/maplibre/martin/tree/v0.6#readme)
