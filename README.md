@@ -11,18 +11,18 @@
     
     Create a new service file
     ```
-    $ sudo nano /etc/systemd/system/tileserverapp.service
+    $ sudo nano /etc/systemd/system/testserverapp.service
     ```
 
     Put configuration as below and save
     ```
     [Unit]
-    description=Tileserver
+    description=Testserver
     After=network.target
     [Service]
     Type=simple
-    WorkingDirectory=/home/ubuntu/app/tileserver
-    ExecStart=/home/ubuntu/app/tileserver/run.sh
+    WorkingDirectory=/home/ubuntu/app/testserver
+    ExecStart=/home/ubuntu/app/testserver/run.sh
     Restart=on-failure
     RestartSec=5
     [Install]
@@ -32,12 +32,12 @@
     Activate and test the service
     ```
     $ sudo systemctl daemon-reload
-    $ sudo systemctl enable tileserverapp
-    $ sudo systemctl start tileserverapp
-    $ sudo systemctl stop tileserverapp
-    $ sudo systemctl restart tileserverapp
-    $ systemctl -l status tileserverapp.service
-    $ journalctl -u tileserverapp.service
+    $ sudo systemctl enable testserverapp
+    $ sudo systemctl start testserverapp
+    $ sudo systemctl stop testserverapp
+    $ sudo systemctl restart testserverapp
+    $ systemctl -l status testserverapp.service
+    $ journalctl -u testserverapp.service
     ```
 
 ## Documentations
