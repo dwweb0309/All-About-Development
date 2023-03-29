@@ -43,6 +43,16 @@
   unzip master.zip
   unzip -d /path/to/folder master.zip
   ```
+### List processes listening on specific port and kill
+  ```
+  - lsof -i:8080
+  ```
+
+  ```
+  kill $(lsof -t -i:8080)
+  kill -9 $(lsof -t -i:8080)
+  ```
+
 
 ### [Unexpected await inside a loop. (no-await-in-loop)](https://stackoverflow.com/questions/48957022/unexpected-await-inside-a-loop-no-await-in-loop)
 
