@@ -45,7 +45,7 @@
   ```
 ### List processes listening on specific port and kill
   ```
-  - lsof -i:8080
+  lsof -i:8080
   ```
 
   ```
