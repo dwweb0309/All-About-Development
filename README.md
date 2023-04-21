@@ -79,6 +79,8 @@
   | [Martin](https://github.com/maplibre/martin/tree/v0.6#readme) | Postgres/PostGIS | Yes | Yes | No |
   | [Clusterbuster](https://github.com/chargetrip/clusterbuster) | Postgres/PostGIS | Yes | Yes | Yes |
 
+  ### Mock data generator
+  https://www.mockaroo.com
 ## Interviews
 - [Deep Cloning in Javascript](https://dev.to/builderio/deep-cloning-objects-in-javascript-the-modern-way-17kf)
 - [Javascript Interview Questions](https://dev.to/onlydevs_/5-github-repositories-to-prepare-for-javascript-interviews-20lk)
